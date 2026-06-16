@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2909b531fd.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="nav__container">
+            <img class="logo" src="./assets__portfolio/Library.svg" alt="">
+            <ul class="nav__links">
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#" class="nav__link">Contact</a></li>
+                <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+            </ul>
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fa-regular fa-chart-bar"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fa-regular fa-circle-xmark"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a></li>
+                    <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Books</a></li>
+                    <li class="menu__list"><a class="menu__link no__cursor "onclick="closeMenu()">Contact</a></li>
+                    
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <header>
+            <div class="header__container">
+                <div class="header__description">
+                    <h1>United States most-awarded online library platform</h1>
+                    <h2>Find your dream book with <span class="purple">Library</span></h2>
+                    <a href="#features">
+                    <button class="btn">Browse books</button>
+                </a>
+                </div>
+                <figure class="header__img--wrapper">
+                    <img src="./assets__portfolio/Undraw_Books.svg" alt="#">
+                </figure>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section__tite">
+                        Why choose <span class="purple">Library</span>
+                    </h2>
+                    <div class="highlight__wrapper">
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fa-brands fa-telegram"></i>
+                            </div>
+                                <h3 class="highlight__subtitle">
+                                    Easy and Quick
+                                </h3>
+                                <p class="highlight__para">
+                                    Get instant access to the books you purchased online.
+                                </p>
+                           
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fa-solid fa-book-bookmark"></i>
+                            </div>
+                                <h3 class="highlight__subtitle">
+                                    10,000+ Books
+                                </h3>
+                                <p class="highlight__para">
+                                    Library has a wide selection of your favorite Fiction and Sci-fi books.
+                                </p>
+                           
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fa-solid fa-bolt"></i> 
+                            </div>
+                                <h3 class="highlight__subtitle">
+                                    Affordable
+                                </h3>
+                                <p class="highlight__para">
+                                    Get your hands on most popular books under $20.
+                                </p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <h2 class="section__title">
+                    Featured <span class="purple">Books</span>
+                </h2>
+                <div class="books">
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-1.jpeg">
+                        </figure>
+                        <div class="book__title">
+                            Scythe
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$30.99</span> $12.50
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-2.jpg">
+                        </figure>
+                        <div class="book__title">
+                            The Titan's Curse
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$45.00</span> $10.00
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-3.jpg">
+                        </figure>
+                        <div class="book__title">
+                            Red Rising
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$25.99</span> $9.85
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-4.jpg">
+                        </figure>
+                        <div class="book__title">
+                           The Martian
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$45.00</span> $22.50
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="latest">
+        <div class="container">
+            <div class="row">
+                <h2 class="section__title">
+                    Latest <span class="purple">Books</span>
+                </h2>
+                <div class="books">
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-5.jpg">
+                        </figure>
+                        <div class="book__title">
+                            Strangers In Time
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$30.99</span> $12.25
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-6.jpg">
+                        </figure>
+                        <div class="book__title">
+                            The Sea Of Monsters
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$25.99</span> $10.99
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-7.jpg">
+                        </figure>
+                        <div class="book__title">
+                            The Book Of Fallen Leaves
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$49.99</span> $14.50
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-8.jpg">
+                        </figure>
+                        <div class="book__title">
+                            Thunderhead
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$38.75</span> $9.79
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-9.jpg">
+                        </figure>
+                        <div class="book__title">
+                           Mark Of Athena
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$28.95</span> $5.75
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-10.jpg">
+                        </figure>
+                        <div class="book__title">
+                          Hail Mary
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$50.99</span> $35.99
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-11.jpg">
+                        </figure>
+                        <div class="book__title">
+                           Cyberpunk No_Coincidence
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$27.89</span> $6.50
+                        </div>
+                    </div>
+                    <div class="book">
+                        <figure class="book__img--wrapper">
+                            <img class="book__img" src="assets__portfolio/book-12.jpg">
+                        </figure>
+                        <div class="book__title">
+                           Ode To The Half-Broken
+                        </div>
+                        <div class="book__rating">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                        <div class="book__price">
+                            <span class="book__price--normal">$20.00</span> $5.25
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    
+
+
+<section id="explore">
+    <div class="container">
+        <div class="row row__column">
+            <h2 class="section__title">
+                Explore more <span class="purple">Books.</span></h2>
+                <a href="#features">
+            <button class="btn">Browse Books</button>
+                </a>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row row__column">
+            <a href="#">
+            <figure class="footer__logo">
+                <img src="assets__portfolio/Library.svg" class="footer__logo--img">
+            </figure>
+            </a>
+            <div class="footer__list">
+                <a href="" class="footer__link">Home</a>
+                <a href="" class="footer__link no__cursor">About</a>
+                <a href="" class="footer__link ">Books</a>
+                <a href="" class="footer__link no__cursor">Contact</a>
+            </div>
+            <div class="footer__copyright">Copyright &copy; 2021 Library</div>
+                <h3></h3>
+           
+        </div>
+    </div>
+
+</footer>
+
+</body>
+
+<footer>
+
+
+</footer>
+
+</html>
