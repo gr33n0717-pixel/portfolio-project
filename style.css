@@ -48,8 +48,8 @@ a:hover{
     align-items: center;
     margin: 0 auto;
 }
-.purple{
-    color: #7342d6;
+.teal{
+    color: #3ae6dd;
 }
 
 .logo{
@@ -68,7 +68,7 @@ li{
     margin-left: 16px;
     text-decoration: none;
     font-size: 16px;
-    color: #7342d6;
+    color: #3ae6dd;
     font-weight: bold;
     padding: 6px;
 }
@@ -78,7 +78,7 @@ li{
 }
 
 .nav__link--primary{
-    border: 2px solid #7342d6;
+    border: 2px solid #3ae6dd;
     border-radius: 4px;
 }
 
@@ -91,7 +91,7 @@ li{
     font-size: 48px;
     text-align: center;
     border: none;
-    color: #7342d6;
+    color: #3ae6dd;
     display: none;
 }
 
@@ -156,7 +156,7 @@ landing
 
 
 #landing{
-    background-color: rgba(115, 66, 214, 0.1);
+    background-color: #3ae6dd31;
 }
 
 header{
@@ -183,7 +183,7 @@ header{
 
 h1{
     font-size: 56px;
-    color: #7342d6;
+    color: #3ae6dd;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -203,7 +203,7 @@ button:active{
 }
 
 .btn{
-    background-color: #7342d6;
+    background-color: #3ae6dd;
     color: white;
     padding: 12px 24px;
     font-size: 20px;
@@ -302,8 +302,8 @@ HIGHLIGHTS
 }
 
 .highlight__img{
-    border: 2px solid #7342d652;
-    color:#7342d6;
+    border: 2px solid #3ae6dd59;
+    color:#3ae6dd;
     width: 100px;
     height: 100px;
     display: flex;
@@ -332,7 +332,7 @@ FEATURES
 
 #features{
     padding-top: 10vh;
-    background-color: rgba(115, 66, 214, 0.1);
+    background-color: #3ae6dd31;
 }
 
 .books{
@@ -393,7 +393,7 @@ Explore
  */
 
 #explore{
-   background-color:  rgba(115, 66, 214, 0.1);
+   background-color:  #3ae6dd31;
 }
 
 /*
